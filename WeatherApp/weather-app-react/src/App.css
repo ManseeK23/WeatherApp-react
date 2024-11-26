@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  
+}
+
+.container {
+  padding: 1rem;
+  background-color: #cdd79f;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.input-container {
+  margin: 1rem 0;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.weather-info {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-size: contain; /* Fit the entire image in the container */
+  background-repeat: no-repeat; /* Avoid image tiling */
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  height: 100vh; /* Make the container match the viewport height */
+  width: 100%; /* Full width of the viewport */
+  overflow: hidden; /* Ensure no scrolling is needed */
+}
+
+.weather-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
